@@ -30,7 +30,7 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation(name:'JCSDK', ext:'aar')
+    implementation 'com.github.juphoon-app:JCCSDK:2.8.12.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
