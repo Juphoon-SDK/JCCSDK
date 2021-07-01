@@ -1,2 +1,2 @@
-# JCCSDK
-Juphoon CallCenter
+# JCSDK
+Juphoon Cloud SDK

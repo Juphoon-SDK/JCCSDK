@@ -1,10 +1,8 @@
-package com.juphoon.jitpack;
-
 import com.juphoon.cloud.JCClient;
 
 /**
- * Date: 2021/6/30
- * Time: 7:33 PM
+ * Date: 2021/7/1
+ * Time: 10:05 AM
  * Author: afei
  */
 public class Test {

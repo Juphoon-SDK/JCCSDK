@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="jitpack/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jitpack.iml" filepath="$PROJECT_DIR$/.idea/modules/jitpack.iml" group="jitpack" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jitpack/JCCSDK-jitpack.iml" filepath="$PROJECT_DIR$/.idea/modules/jitpack/JCCSDK-jitpack.iml" group="PublishJCSDK/jitpack" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PublishJCSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/PublishJCSDK.iml" group="PublishJCSDK" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="PublishJCSDK/app" />
     </modules>
   </component>
 </project>
