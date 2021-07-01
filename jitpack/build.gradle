@@ -18,16 +18,17 @@ android {
         }
     }
 
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['../sdk']
+        }
+    }
+
     android.libraryVariants.all {
         it.generateBuildConfig.enabled = false
     }
 }
-repositories {
-    flatDir {
-        dirs '../sdk'
-    }
-}
 
 dependencies {
-    implementation(name:'JCSDK', ext:'aar')
+    implementation fileTree(include: ['*.aar'], dir: '../sdk')
 }
